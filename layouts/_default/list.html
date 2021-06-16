@@ -5,9 +5,11 @@
 {{ end }}
 
 {{ if .IsHome }}
-  <p>
-    Несколько слов о текущих событиях.
-  </p>
+  <center>
+    <p>
+      {{ .Site.Params.description }}
+    </p>
+  </center>
 
   <hr/>
 {{ end }}
